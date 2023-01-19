@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    stages {
+        stage('Submit Stack') {
+            steps {
+            bat 'aws cloudformation create-stack --stack-name s3bucket5 --template-body file://trails3.yaml --region ap-south-1'
+              }
+             }
+            }
+            }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Term
