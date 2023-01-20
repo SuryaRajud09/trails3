@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-            bat 'aws cloudformation create-stack --stack-name s3tr4 --template-body file://trails3.yaml --region ap-south-1'
+            bat 'aws cloudformation create-stack --stack-name s3tr5 --template-body file://trails3.yaml --region ap-south-1'
               }
              }
             }
